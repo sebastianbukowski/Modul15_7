@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px 40px 40px 40px;
+    border-radius: 5px;
+
+
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin-top: 15px;
+}
+a {
+   
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    flex: 1;
+
+}
+.stopWatch {
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    color: gray;
+}
+#app {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #8fbc74 0%, #bad3be 100%);
+}
